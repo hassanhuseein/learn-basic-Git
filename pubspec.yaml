@@ -44,6 +44,10 @@ dependencies:
   flutter_local_notifications:
   connectivity_plus:
   carousel_slider:
+  timezone:
+  rxdart:
+  path_provider:
+  flutter_native_timezone: 
 
 
 dev_dependencies:

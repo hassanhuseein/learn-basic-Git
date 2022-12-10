@@ -27,8 +27,18 @@ class Home extends StatelessWidget {
       ),
       body: SafeArea(
         child: Container(
+          padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
           child: Column(
-            children: [],
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              SizedBox(
+                height: 200,
+                // decoration: BoxDecoration(color: Colors.red),
+                child: Image.network(
+                  "https://images.unsplash.com/photo-1670160031427-dd6a22c737cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8eEh4WVRNSExnT2N8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+                ),
+              )
+            ],
           ),
         ),
       ),
