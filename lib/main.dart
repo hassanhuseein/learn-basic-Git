@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import 'Examples.dart';
 import 'HomePage.dart';
 
 void main() => runApp(MyApp());
@@ -42,7 +43,13 @@ class Home extends StatelessWidget {
                     Navigator.push(context,
                         MaterialPageRoute(builder: (_) => MyHomePage()));
                   },
-                  child: Text("Sqflite"))
+                  child: Text("Sqflite")),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                        context, MaterialPageRoute(builder: (_) => Example()));
+                  },
+                  child: Text("Web")),
             ],
           ),
         ),

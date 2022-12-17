@@ -47,7 +47,8 @@ dependencies:
   timezone:
   rxdart:
   path_provider:
-  flutter_native_timezone: 
+  flutter_native_timezone:
+  url_launcher:
 
 
 dev_dependencies:
